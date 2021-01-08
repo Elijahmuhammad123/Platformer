@@ -486,6 +486,7 @@ GameObject:
   - component: {fileID: 1799224483}
   - component: {fileID: 1799224485}
   - component: {fileID: 1799224486}
+  - component: {fileID: 1799224487}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Untagged
@@ -576,7 +577,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!60 &1799224486
 PolygonCollider2D:
@@ -1128,3 +1129,16 @@ PolygonCollider2D:
       - {x: 6.6270313, y: 3.7127345}
       - {x: 6.6156254, y: 3.7013283}
       - {x: 6.5585938, y: 3.7013283}
+--- !u!114 &1799224487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799224482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d982fc67353403a4db1baebbbdf7691c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpPower: 500
